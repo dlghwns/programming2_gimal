@@ -1,0 +1,9 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <windows.h>
+#include <time.h>
+#include "fun.h"
+#include "login.h"
+#include "register.h"
+void show_menu(void);

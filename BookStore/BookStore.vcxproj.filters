@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{d4b9b7a9-b78e-4cf5-bdab-301216946cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\user">
+      <UniqueIdentifier>{37d6806b-a54e-4ce6-a082-4d66656b4bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\admin">
+      <UniqueIdentifier>{07c94c2c-1c10-4c5f-92e3-a3dae6412154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="fun.c">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="user_menu.c">
+      <Filter>소스 파일\user</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.c">
+      <Filter>소스 파일\user</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_menu.c">
+      <Filter>소스 파일\admin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="login.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fun.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="register.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="user_menu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_menu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="booklist.txt" />
+  </ItemGroup>
+</Project>
